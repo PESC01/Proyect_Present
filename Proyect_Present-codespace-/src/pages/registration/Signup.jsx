@@ -51,7 +51,7 @@ function Signup() {
             {loading && <Loader/>}
             <div className=' bg-gray-800 px-10 py-10 rounded-xl '>
                 <div className="">
-                    <h1 className='text-center text-white text-xl mb-4 font-bold'>Signup</h1>
+                    <h1 className='text-center text-white text-xl mb-4 font-bold'>Registrarse</h1>
                 </div>
                 <div>
                     <input type="text"
@@ -85,11 +85,11 @@ function Signup() {
                     <button
                         onClick={signup}
                         className=' bg-red-500 w-full text-white font-bold  px-2 py-2 rounded-lg'>
-                        Signup
+                        Registrarse
                     </button>
                 </div>
                 <div>
-                    <h2 className='text-white'>Have an account <Link className=' text-red-500 font-bold' to={'/login'}>Login</Link></h2>
+                    <h2 className='text-white'>Tengo una cuenta <Link className=' text-red-500 font-bold' to={'/login'}>Acceder</Link></h2>
                 </div>
             </div>
         </div>

@@ -21,7 +21,7 @@ app.use(cors());
 app.use(morgan("dev"));
 app.use(express.urlencoded({ extended: false }));
 
-app.use(express.static(resolve("frontend/dist")));
+app.use(express.static(resolve("Proyect_Present-codespace-/dist")));
 
 io.on("connection", (socket) => {
   console.log(socket.id);

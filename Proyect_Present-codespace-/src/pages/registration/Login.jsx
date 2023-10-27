@@ -45,7 +45,7 @@ function Login() {
             {loading && <Loader/>}
             <div className=' bg-gray-800 px-10 py-10 rounded-xl '>
                 <div className="">
-                    <h1 className='text-center text-white text-xl mb-4 font-bold'>Login</h1>
+                    <h1 className='text-center text-white text-xl mb-4 font-bold'>Acceso</h1>
                 </div>
                 <div>
                     <input type="email"
@@ -73,7 +73,7 @@ function Login() {
                     </button>
                 </div>
                 <div>
-                    <h2 className='text-white'>Don't have an account <Link className=' text-yellow-500 font-bold' to={'/signup'}>Signup</Link></h2>
+                    <h2 className='text-white'>No tienes una cuenta <Link className=' text-yellow-500 font-bold' to={'/signup'}>Registrarse</Link></h2>
                 </div>
             </div>
         </div>
