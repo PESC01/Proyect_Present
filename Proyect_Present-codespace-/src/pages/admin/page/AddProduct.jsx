@@ -60,7 +60,7 @@ function AddProduct() {
                         <button
                         onClick={addProduct}
                             className=' bg-yellow-500 w-full text-black font-bold  px-2 py-2 rounded-lg'>
-                            Add Product
+                            Agregar Producto
                         </button>
                     </div>
 

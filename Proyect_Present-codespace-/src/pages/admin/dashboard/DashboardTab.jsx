@@ -46,7 +46,7 @@ function DashboardTab() {
                             <Tab>
                                 <button type="button" className="font-medium border-b-2 border-green-500 bg-[#605d5d12] text-green-500 rounded-lg text-xl  hover:shadow-green-700 shadow-[inset_0_0_8px_rgba(0,0,0,0.6)]   px-5 py-1.5 text-center ">
                                     <div className="flex gap-2 items-center">
-                                        <FaUser /> Usearios
+                                        <FaUser /> Usuarios
                                     </div>
                                 </button>
                             </Tab>
@@ -80,7 +80,7 @@ function DashboardTab() {
                                                     Precio
                                                 </th>
                                                 <th scope="col" className="px-6 py-3">
-                                                    CCategoria
+                                                    Categoria
                                                 </th>
                                                 <th scope="col" className="px-6 py-3">
                                                     Datos
@@ -105,7 +105,7 @@ function DashboardTab() {
                                                             {title}
                                                         </td>
                                                         <td className="px-6 py-4 text-black " style={{ color: mode === 'dark' ? 'white' : '' }}>
-                                                            ₹{price}
+                                                            Bs{price}
                                                         </td>
                                                         <td className="px-6 py-4 text-black " style={{ color: mode === 'dark' ? 'white' : '' }}>
                                                             {category}
